@@ -1,0 +1,395 @@
+/* MEDIA QUERY FOR RESPONSIVE START */
+
+/* LAPTOP MEDIA QUERY START */
+
+@media screen and (min-width: 1024px){
+
+}
+
+/* LAPTOP MEDIA QUERY END */
+
+
+/* TABLET MEDIA QUERY START */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+ 
+  
+  
+}
+
+/* TABLET MEDIA QUERY END */
+
+
+/* SMARTPHONE MEDIA QUERY START */
+
+@media screen and (max-width: 767px){
+  
+}
+
+/* TABLET MEDIA QUERY END */
+
+
+/* MEDIA QUERY FOR RESPONSIVE END */
+
+
+
+
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.But{
+  background-color: rgb(0,0,0);
+  color: white; border-radius: 20px;
+  border: 20px solid rgb(0,0,0); 
+  font-size: 1.150vw;
+  font-weight: 700;
+
+}
+
+.Buta{
+background-color: rgb(146,146,146);
+color: white; border-radius: 20px;
+border: 20px solid rgb(146, 146, 146); 
+font-size: 1.150vw;
+font-weight: 700;
+}
+
+/* .picture{
+  float: right;
+  transform: skew(-10deg);
+  height: 1%;
+  width: 1%;
+} */
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-extralight {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-light {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-medium {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-semibold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-bold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-thin-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-extralight-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-light-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-regular-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-medium-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-semibold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-bold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+.A{
+    /* padding-bottom: 50px; */
+    margin-bottom: auto;
+    font-size: 1.5vw;
+    color: rgb(214,3,214);
+    font-weight: 650;
+    display: flex;
+    box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.269);
+}
+/* 
+      color: rgb(214,3,214);
+      list-style: none;
+      float: right;
+      margin-left: 10px; margin-right: 10px;
+      text-decoration: none; */
+.Navb a {
+    text-decoration: none;
+    color: rgb(52, 46, 46);
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin-right: 15px;
+    /* margin-left: 20px; */
+    /* margin-top: 300px; */
+    margin-left: 20px;
+  }
+
+.theme {
+    --bg-color: #111;
+    --main-color: #fefefe;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-color);
+    border-radius: 100%;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+  }
+  
+  .input {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+  }
+  
+  .icon {
+    position: absolute;
+    top: calc(50% -13px);
+    left: calc(50% -13px);
+    width: 26px;
+    height: 26px;
+  }
+  
+  .icon.icon-moon {
+    fill: var(--main-color);
+  }
+  
+  .icon.icon-sun {
+    stroke: var(--main-color);
+    display: none;
+  }
+  
+  .input:checked ~ .icon.icon-sun {
+    display: block;
+  }
+  
+  .input:checked ~ .icon.icon-moon {
+    display: none;
+  }
+  
+  .theme:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+  }
+
+  /* body {
+    padding: 25px;
+    background-color: white;
+    color: purple;
+    font-size: 25px;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+   */
+
+   body {    
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+
+   .Navb a{
+    font-weight: 500;
+    color: white;
+
+ 
+   }
+
+   .Welcome{
+    color: white;
+   }
+
+   .But{
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    color: black; border-radius: 20px; 
+    border: 20px solid rgb(255, 255, 255); 
+    font-size: 1.150vw;
+
+  }
+  
+.Buta{
+  font-weight: 700;
+  background-color: rgb(146,146,146);
+  color: white; border-radius: 20px;
+  border: 20px solid rgb(146, 146, 146); 
+  font-size: 1.150vw;
+}
+
+
+.RC{
+color: white;
+font-weight: 700;
+}
+
+
+
+  }
+
+  /* .nav2 ul li{
+    font-size: 1.88vw;
+    color: rgb(0, 255, 47);
+    } */
+
+    .nav2 ul{
+      /* font-weight: bolder; */
+      font-size: 1.5vw;
+      color: rgb(214,3,214);
+      list-style: none;
+
+   
+      }
+      .nav2 ul li a{
+        font-weight: bolder;
+        float: right;
+        margin-left: 10px; margin-right: 10px;
+        text-decoration: none;
+        font-weight: bolder;
+
+      }
+
+      .nav2 ul li a:hover{
+        transition: 4s;
+        text-decoration: underline black 2px;
+      
+      }
+
+  
+
+
+    
+
+
+
+      .switch-name {
+     
+        --dark-sky: #5050e5;
+        --moon: #ffd365;
+        --light-sky: #35d5e5;
+        --sun: #ffed89;
+        display: inline-block;
+        position: relative;
+        border-radius: 5em;
+        cursor: pointer;
+        width: 60px;
+        height: 30px;
+        overflow: hidden;
+        transition: all .5s;
+      }
+      
+      .switch-name .back {
+        background-color: var(--dark-sky);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transition: .5s ease-in-out;
+      }
+      
+      .switch-name .checkbox {
+        opacity: 0;
+      }
+      
+      .switch-name .checkbox:checked ~ .back {
+        background-color: var(--light-sky);
+      }
+      
+      .switch-name .checkbox:checked ~ .moon {
+        transform: translate(100%) rotate(180deg);
+        opacity: 0;
+      }
+      
+      .switch-name .checkbox:checked ~ .sun {
+        transform: translate(100%) rotate(180deg);
+        opacity: 1;
+      }
+      
+      .switch-name .moon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        
+        padding: .4em;
+        fill: var(--moon);
+        transition: .5s;
+      }
+      
+      .switch-name .sun {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: .4em;
+        fill: var(--sun);
+        transition: .5s;
+        opacity: 0;
+      }
